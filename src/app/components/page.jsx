@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import NewPostPage from "./app/posts/new/page.jsx";
 
 export default function MyComponent() {
   return (
@@ -10,6 +11,7 @@ export default function MyComponent() {
       exit={{ opacity: 0 }}
     >
       <h1>Hello world</h1>
+      <NewPostPage />
     </motion.div>
   );
 }
